@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    font-family: 'PT Serif', serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/127/501/276/light-line-background-color-wallpaper-preview.jpg);
+    background-size: cover;
+}
+.header{
+   margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3A6AA7;
+    color: white;
+    padding: 10px
+}
+
+.header button{
+    border: none;
+    background-color: #95C0E8;
+    font-size: medium;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.containerButtons{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.userSelector {
+    cursor: pointer;
+}
+
+.interface{
+    visibility: hidden;
+}
+
+.balanceInterface{
+    visibility: hidden;
+}
+
+.enteredAmount{
+    visibility: hidden;
+}
